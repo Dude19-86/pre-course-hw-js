@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let copy = {...passportWithAddress, address: {city: 'Bobryisk'}};
+let copy2 = {...passportWithAddress, address: {city: 'Bobryisk'}};
 
 console.log(passportWithAddress.address.city);
-console.log(copy.address.city);
+console.log(copy2.address.city);
