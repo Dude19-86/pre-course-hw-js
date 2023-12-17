@@ -3,7 +3,8 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-
-let res = numbers.filter((e, i) => {
-    console.log(e.filter(c => c % 2 === 0))
-});
+let res = [];
+for (let i = 0; i < numbers.length; i++) {
+    res.push(numbers[i].filter(e => e % 2 === 0));
+}
+console.log(res)
